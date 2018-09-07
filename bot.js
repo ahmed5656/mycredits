@@ -20,7 +20,7 @@ var server = "487652334449590272"; // ايدي السررفر
 var channel = "487652334449590274";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('#daily')
-    },1000);
+    },86400);
 })
 
 
